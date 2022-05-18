@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="212.075" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\srish\Downloads\chromedriver_win32\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\srish\IdeaProjects\Qualitest_CodilityTest\target\test-classes;C:\Users\srish\IdeaProjects\Qualitest_CodilityTest\target\classes;C:\Users\srish\.m2\repository\io\cucumber\cucumber-junit\7.3.3\cucumber-junit-7.3.3.jar;C:\Users\srish\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\srish\.m2\repository\io\cucumber\cucumber-core\7.3.3\cucumber-core-7.3.3.jar;C:\Users\srish\.m2\repository\io\cucumber\cucumber-gherkin\7.3.3\cucumber-gherkin-7.3.3.jar;C:\Users\srish\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.3.3\cucumber-gherkin-messages-7.3.3.jar;C:\Users\srish\.m2\repository\io\cucumber\gherkin\23.0.1\gherkin-23.0.1.jar;C:\Users\srish\.m2\repository\io\cucumber\messages\18.0.0\messages-18.0.0.jar;C:\Users\srish\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\srish\.m2\repository\io\cucumber\cucumber-expressions\15.1.1\cucumber-expressions-15.1.1.jar;C:\Users\srish\.m2\repository\io\cucumber\datatable\7.3.3\datatable-7.3.3.jar;C:\Users\srish\.m2\repository\io\cucumber\cucumber-plugin\7.3.3\cucumber-plugin-7.3.3.jar;C:\Users\srish\.m2\repository\io\cucumber\docstring\7.3.3\docstring-7.3.3.jar;C:\Users\srish\.m2\repository\io\cucumber\html-formatter\19.1.0\html-formatter-19.1.0.jar;C:\Users\srish\.m2\repository\io\cucumber\ci-environment\9.0.4\ci-environment-9.0.4.jar;C:\Users\srish\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\srish\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\srish\.m2\repository\io\cucumber\cucumber-java\7.3.3\cucumber-java-7.3.3.jar;C:\Users\srish\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.10.1\maven-compiler-plugin-3.10.1.jar;C:\Users\srish\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\srish\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\srish\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\srish\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\srish\.m2\repository\org\codehaus\plexus\plexus-java\1.1.1\plexus-java-1.1.1.jar;C:\Users\srish\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar;C:\Users\srish\.m2\repository\com\thoughtworks\qdox\qdox\2.0.1\qdox-2.0.1.jar;C:\Users\srish\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.11.1\plexus-compiler-api-2.11.1.jar;C:\Users\srish\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.1\plexus-utils-3.4.1.jar;C:\Users\srish\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.11.1\plexus-compiler-manager-2.11.1.jar;C:\Users\srish\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.11.1\plexus-compiler-javac-2.11.1.jar;C:\Users\srish\.m2\repository\io\cucumber\cucumber-testng\7.3.3\cucumber-testng-7.3.3.jar;C:\Users\srish\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\srish\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\srish\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\srish\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\srish\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Users\srish\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-server\4.0.0-alpha-2\selenium-server-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-alpha-2\selenium-java-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-alpha-2\selenium-chrome-driver-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-alpha-2\selenium-chromium-driver-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-edgehtml-driver\4.0.0-alpha-2\selenium-edgehtml-driver-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-alpha-2\selenium-edge-driver-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-alpha-2\selenium-firefox-xpi-driver-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-alpha-2\selenium-ie-driver-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-alpha-2\selenium-remote-driver-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-alpha-2\selenium-api-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\net\bytebuddy\byte-buddy\1.9.12\byte-buddy-1.9.12.jar;C:\Users\srish\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\srish\.m2\repository\io\opentracing\contrib\opentracing-tracerresolver\0.1.7\opentracing-tracerresolver-0.1.7.jar;C:\Users\srish\.m2\repository\io\opentracing\opentracing-api\0.33.0\opentracing-api-0.33.0.jar;C:\Users\srish\.m2\repository\com\google\guava\guava\27.1-jre\guava-27.1-jre.jar;C:\Users\srish\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\srish\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\srish\.m2\repository\org\checkerframework\checker-qual\2.5.2\checker-qual-2.5.2.jar;C:\Users\srish\.m2\repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;C:\Users\srish\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\srish\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;C:\Users\srish\.m2\repository\com\squareup\okhttp3\okhttp\3.14.0\okhttp-3.14.0.jar;C:\Users\srish\.m2\repository\com\squareup\okio\okio\1.17.2\okio-1.17.2.jar;C:\Users\srish\.m2\repository\io\opentracing\opentracing-util\0.33.0\opentracing-util-0.33.0.jar;C:\Users\srish\.m2\repository\io\opentracing\opentracing-noop\0.33.0\opentracing-noop-0.33.0.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-alpha-2\selenium-opera-driver-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-alpha-2\selenium-safari-driver-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-alpha-2\selenium-support-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\grid\4.0.0-alpha-2\grid-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-alpha-2\selenium-firefox-driver-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830.1\jetty-repacked-9.4.12.v20180830.1.jar;C:\Users\srish\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\srish\.m2\repository\org\zeromq\jeromq\0.5.1\jeromq-0.5.1.jar;C:\Users\srish\.m2\repository\eu\neilalexander\jnacl\1.0.0\jnacl-1.0.0.jar;C:\Users\srish\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\srish\.m2\repository\org\yaml\snakeyaml\1.24\snakeyaml-1.24.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\srish\AppData\Local\Temp\surefire7544115154529354701\surefirebooter3370312185393501309.jar C:\Users\srish\AppData\Local\Temp\surefire7544115154529354701 2022-05-18T15-10-19_457-jvmRun1 surefire5910577937822677358tmp surefire_01103449244218751030tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\srish\IdeaProjects\Qualitest_CodilityTest\target\test-classes;C:\Users\srish\IdeaProjects\Qualitest_CodilityTest\target\classes;C:\Users\srish\.m2\repository\io\cucumber\cucumber-junit\7.3.3\cucumber-junit-7.3.3.jar;C:\Users\srish\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\srish\.m2\repository\io\cucumber\cucumber-core\7.3.3\cucumber-core-7.3.3.jar;C:\Users\srish\.m2\repository\io\cucumber\cucumber-gherkin\7.3.3\cucumber-gherkin-7.3.3.jar;C:\Users\srish\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.3.3\cucumber-gherkin-messages-7.3.3.jar;C:\Users\srish\.m2\repository\io\cucumber\gherkin\23.0.1\gherkin-23.0.1.jar;C:\Users\srish\.m2\repository\io\cucumber\messages\18.0.0\messages-18.0.0.jar;C:\Users\srish\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\srish\.m2\repository\io\cucumber\cucumber-expressions\15.1.1\cucumber-expressions-15.1.1.jar;C:\Users\srish\.m2\repository\io\cucumber\datatable\7.3.3\datatable-7.3.3.jar;C:\Users\srish\.m2\repository\io\cucumber\cucumber-plugin\7.3.3\cucumber-plugin-7.3.3.jar;C:\Users\srish\.m2\repository\io\cucumber\docstring\7.3.3\docstring-7.3.3.jar;C:\Users\srish\.m2\repository\io\cucumber\html-formatter\19.1.0\html-formatter-19.1.0.jar;C:\Users\srish\.m2\repository\io\cucumber\ci-environment\9.0.4\ci-environment-9.0.4.jar;C:\Users\srish\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\srish\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\srish\.m2\repository\io\cucumber\cucumber-java\7.3.3\cucumber-java-7.3.3.jar;C:\Users\srish\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.10.1\maven-compiler-plugin-3.10.1.jar;C:\Users\srish\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\srish\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\srish\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\srish\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\srish\.m2\repository\org\codehaus\plexus\plexus-java\1.1.1\plexus-java-1.1.1.jar;C:\Users\srish\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar;C:\Users\srish\.m2\repository\com\thoughtworks\qdox\qdox\2.0.1\qdox-2.0.1.jar;C:\Users\srish\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.11.1\plexus-compiler-api-2.11.1.jar;C:\Users\srish\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.1\plexus-utils-3.4.1.jar;C:\Users\srish\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.11.1\plexus-compiler-manager-2.11.1.jar;C:\Users\srish\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.11.1\plexus-compiler-javac-2.11.1.jar;C:\Users\srish\.m2\repository\io\cucumber\cucumber-testng\7.3.3\cucumber-testng-7.3.3.jar;C:\Users\srish\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\srish\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\srish\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\srish\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\srish\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Users\srish\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-server\4.0.0-alpha-2\selenium-server-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-alpha-2\selenium-java-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-alpha-2\selenium-chrome-driver-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-alpha-2\selenium-chromium-driver-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-edgehtml-driver\4.0.0-alpha-2\selenium-edgehtml-driver-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-alpha-2\selenium-edge-driver-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-alpha-2\selenium-firefox-xpi-driver-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-alpha-2\selenium-ie-driver-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-alpha-2\selenium-remote-driver-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-alpha-2\selenium-api-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\net\bytebuddy\byte-buddy\1.9.12\byte-buddy-1.9.12.jar;C:\Users\srish\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\srish\.m2\repository\io\opentracing\contrib\opentracing-tracerresolver\0.1.7\opentracing-tracerresolver-0.1.7.jar;C:\Users\srish\.m2\repository\io\opentracing\opentracing-api\0.33.0\opentracing-api-0.33.0.jar;C:\Users\srish\.m2\repository\com\google\guava\guava\27.1-jre\guava-27.1-jre.jar;C:\Users\srish\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\srish\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\srish\.m2\repository\org\checkerframework\checker-qual\2.5.2\checker-qual-2.5.2.jar;C:\Users\srish\.m2\repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;C:\Users\srish\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\srish\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;C:\Users\srish\.m2\repository\com\squareup\okhttp3\okhttp\3.14.0\okhttp-3.14.0.jar;C:\Users\srish\.m2\repository\com\squareup\okio\okio\1.17.2\okio-1.17.2.jar;C:\Users\srish\.m2\repository\io\opentracing\opentracing-util\0.33.0\opentracing-util-0.33.0.jar;C:\Users\srish\.m2\repository\io\opentracing\opentracing-noop\0.33.0\opentracing-noop-0.33.0.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-alpha-2\selenium-opera-driver-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-alpha-2\selenium-safari-driver-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-alpha-2\selenium-support-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\grid\4.0.0-alpha-2\grid-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-alpha-2\selenium-firefox-driver-4.0.0-alpha-2.jar;C:\Users\srish\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830.1\jetty-repacked-9.4.12.v20180830.1.jar;C:\Users\srish\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\srish\.m2\repository\org\zeromq\jeromq\0.5.1\jeromq-0.5.1.jar;C:\Users\srish\.m2\repository\eu\neilalexander\jnacl\1.0.0\jnacl-1.0.0.jar;C:\Users\srish\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\srish\.m2\repository\org\yaml\snakeyaml\1.24\snakeyaml-1.24.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\srish"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_211\jre"/>
+    <property name="basedir" value="C:\Users\srish\IdeaProjects\Qualitest_CodilityTest"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\srish\AppData\Local\Temp\surefire7544115154529354701\surefirebooter3370312185393501309.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="user.name" value="srish"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\srish\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\srish\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.2.1"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="user.dir" value="C:\Users\srish\IdeaProjects\Qualitest_CodilityTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\Jatin\Sdk\tools;C:\Users\Jatin\Sdk\platform-tools;C:\Users\srish\AppData\Local\Microsoft\WindowsApps;C:\Users\Jatin\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk1.8.0_211\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Modify my cart&quot;, &quot;Website Test&quot;](1)" classname="Runners.RunTestWithTestNG" time="206.764">
+    <system-out><![CDATA[Page loaded now
+Before
+Bikini
+Bikini added
+Hard top
+Hard top added
+Watch Modern
+Watch oldies added
+Black trousers
+Black Pants added
+My Wish Table
+Check Four Items
+Initial minimum price: [[[[ChromeDriver: chrome on WINDOWS (13227ae947efb127bf29a34f2ed8ae38)] -> xpath: //tbody[@class='wishlist-items-wrapper']]] -> xpath: .//tr]
+Minimum price: 19.0
+Search for lowest price product
+Add lowest price item in cart Bikini
+Verify items added in cart
+Minimum price product: Bikini is added to the cart and verified successfully
+After
+]]></system-out>
+    <system-err><![CDATA[[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 37 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 26644
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 18, 2022 3:10:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
