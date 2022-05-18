@@ -1,0 +1,8 @@
+The project is aimed to create a BDD Cucumber-Java Project to cater to the specific requirements mentioned in the Codility assignment.
+The maven project can be executed in the following 4 ways
+  1. mvn clean test on pom.xml
+  2. Run the TestNG.XML file
+  3. Run the websiteTest.feature file (src/test/resources)
+  4. Run the RunTestWithTESTNG (src/test/java/Runners)
+Project currently runs with chrome browser and the chromedriver.exe is pulled in from a custom location. Will have to be changed in the code to run the project
+All existing chrome browsers will have to be closed to have a smooth run
